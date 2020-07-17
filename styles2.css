@@ -8,6 +8,20 @@ body{
   color:#fa26a0;
 
 }
+.carousel{
+  
+  left: 0;
+  right: 0;
+  margin-right: 0;
+  margin-left: 0;
+}
+
+.carousel-images{
+
+  max-height: 80vh;
+  min-height: 80vh;
+
+}
 .content{
   text-align: center;
 }
