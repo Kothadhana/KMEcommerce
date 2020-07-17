@@ -77,7 +77,7 @@ for(let i=0;i<6;i++)
            }
            let itemDetails="<p><h4>"+indvidualItemDetails+"</h4></p><h1>"+sections[i][j][k].cost+"/-<span><h4 style='text-decoration: line-through ; display: inline'>"+sections[i][j][k].orcost+"/-</h4></span></h1><p>"+rate+"</p>"
         //  console.log(arr[k],arr[k].img);
-          let addItem="<div class='third-div row' id='section"+(i+1).toString()+(j+1).toString()+(j+1).toString()+"'><div class='col col-sm-6 col-md-6 col-xsm-12 col-xlg-6 col-lg-6'><img  class='img-item' src='public/"+sections[i][j][k].img+"' alt='pic'></img></div><div class='col2 col col-sm-6 col-md-6 col-xsm-12 col-xlg-6 col-lg-6' >"+itemDetails+"</div></div>"
+          let addItem="<div class='third-div row' id='section"+(i+1).toString()+(j+1).toString()+(j+1).toString()+"'><div class='col col-sm-6 col-md-6 col-xsm-12 col-xlg-6 col-lg-6'><img  class='img-item' src='public/public/"+sections[i][j][k].img+"' alt='pic'></img></div><div class='col2 col col-sm-6 col-md-6 col-xsm-12 col-xlg-6 col-lg-6' >"+itemDetails+"</div></div>"
           $(group).append(addItem);
     }
   }
